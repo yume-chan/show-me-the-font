@@ -3,10 +3,14 @@
         "inlineSourceMap": true,
         "strict": true,
         "target": "es2017",
+        "outDir": "out",
         "lib": [
             "es2017",
             "es2015.iterable",
             "dom.iterable"
         ]
-    }
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
 }

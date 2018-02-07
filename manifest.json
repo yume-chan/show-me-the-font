@@ -10,10 +10,10 @@
                 "https://plus.google.com/*"
             ],
             "js": [
-                "google-plus.js"
+                "out/google-plus.js"
             ],
             "css": [
-                "google-plus.css"
+                "src/google-plus.css"
             ],
             "all_frames": true
         }
