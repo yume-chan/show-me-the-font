@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Show Me The Font",
+    "version": "1",
+    "description": "A plain text description",
+    "author": "Simon Chan",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://plus.google.com/*"
+            ],
+            "js": [
+                "google-plus.js"
+            ],
+            "css": [
+                "google-plus.css"
+            ],
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+        "https://plus.google.com/"
+    ],
+    "minimum_chrome_version": "47"
+}
